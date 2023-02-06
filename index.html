@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./utils.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Responsive Single page||Resturant Website</title>
+  </head>
+
+  <body>
+    <!-- todo: note js smooth effect is still pending in this website -->
+    <nav class="navbar">
+      <div class="navbar__container container">
+        <a href="#" class="logo">
+          <h3 class="navbar__logo">Sohail</h3>
+        </a>
+
+        <ul class="navbar__items">
+          <li class="navbar__item"><a href="#header">Home</a></li>
+          <li class="navbar__item"><a href="#about">About</a></li>
+          <li class="navbar__item"><a href="#food-category">Category</a></li>
+          <li class="navbar__item"><a href="#food-menu">Menu</a></li>
+          <li class="navbar__item"><a href="#testimonials">Testimonials</a></li>
+          <li class="nav__item"><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="navbar__open__button" class="btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <button class="navbar__close__button" class="btn">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <!-- nav-bar container ends here -->
+    </nav>
+    <!-- ! @@@@@@@@@@@@@@@@@@@@@@@@@ Header starts here @@@@@@@@@@@@@@@@@@@@ -->
+    <header class="header" id="header">
+      <div class="header__container container">
+        <div class="header__content">
+          <h3>choose the best, healthy and delicious food</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa
+            mollitia sit delectus sint exercitationem saepe, perferendis esse
+            commodi eos quos debitis tempora deserunt sunt. Quo vero provident
+            quia possimus quasi.
+          </p>
+          <div class="buttons">
+            <a href="#food-menu" class="btn btn-footer">our food Menu</a>
+            <a href="#food-menu" class="btn btn-footer">about resturant</a>
+          </div>
+        </div>
+        <!-- header__content ends here -->
+        <div class="header__image">
+          <img src="./AssetsFolder/heroImg.png" alt="" />
+        </div>
+      </div>
+      <!-- * header container ends here -->
+    </header>
+
+    <!-- ! @@@@@@@@@@@@@@@@@@@@@@@@@ About us  @@@@@@@@@@@@@@@@@@@@ -->
+    <section class="about" id="about">
+      <div class="about__container container">
+        <div class="about__left">
+          <h2>about us</h2>
+          <p>we work to provide you better food not to earn money.</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit
+            itaque, architecto tempora accusamus unde, ducimus quos quibusdam
+            non ea sunt nisi non. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Sed nisi ipsa tempora voluptate rerum commodi?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo,
+            illo?
+          </p>
+        </div>
+        <!-- about left ends here -->
+        <div class="about__right">
+          <div class="about__images">
+            <div class="about__image">
+              <img
+                src="./AssetsFolder/ourStoryImg.png"
+                alt="resturant interior"
+              />
+            </div>
+            <div class="about__image">
+              <img
+                src="./AssetsFolder/eventsMedia1.png"
+                alt="resturant interior"
+              />
+            </div>
+            <div class="about__image">
+              <img src="./AssetsFolder/about-2.jpeg" alt="resturant interior" />
+            </div>
+            <div class="about__image">
+              <img src="./AssetsFolder/about-3.jpeg" alt="resturant interior" />
+            </div>
+          </div>
+          <!-- about images ends here -->
+        </div>
+        <!-- about right ends here -->
+      </div>
+      <!-- * main-container ends here -->
+    </section>
+    <!-- ! @@@@@@@@@@@@@@@@@@@@@@@@@ food type  @@@@@@@@@@@@@@@@@@@@ -->
+    <section class="food" id="food-category">
+      <h2 class="sectionHeading">why our restaurant</h2>
+      <div class="food__container container">
+        <div class="food__type">
+          <div class="food__image">
+            <img src="./AssetsFolder/quality.jpg" alt="fruit chart" />
+          </div>
+          <div class="food__content">
+            <div class="food__icon">
+              <i class="fa-solid fa-award fa-2x"></i>
+            </div>
+            <h4>best quality</h4>
+            <a href="#" class="btn btn-secondary">learn more</a>
+          </div>
+        </div>
+        <!-- food__item 1 ends here -->
+        <div class="food__type">
+          <div class="food__image">
+            <img src="./AssetsFolder/taste-2.jpg" alt="fresh vegitables" />
+          </div>
+          <div class="food__content">
+            <div class="food__icon">
+              <i class="fa-solid fa-face-grin-tongue-squint fa-2x"></i>
+            </div>
+            <h4>unforgotable taste</h4>
+            <a href="#" class="btn btn-secondary">learn more</a>
+          </div>
+        </div>
+        <!-- food__item  2 ends here -->
+        <div class="food__type">
+          <div class="food__image">
+            <img src="./AssetsFolder/skilled-shefs.jpeg" alt="dry fruits" />
+          </div>
+          <div class="food__content">
+            <div class="food__icon">
+              <i class="fa-solid fa-utensils fa-2x"></i>
+            </div>
+            <h4>skilled chefs</h4>
+            <a href="#" class="btn btn-secondary">learn more</a>
+          </div>
+        </div>
+        <!-- food__item 3 ends here -->
+        <div class="food__type">
+          <div class="food__image">
+            <img src="./AssetsFolder/luxury-room-2.jpg" alt="dry fruits" />
+          </div>
+          <div class="food__content">
+            <div class="food__icon">
+              <i class="fa-solid fa-house-chimney-window fa-2x"></i>
+            </div>
+            <h4>party rooms</h4>
+            <a href="#" class="btn btn-secondary">learn more</a>
+          </div>
+        </div>
+        <!-- food__item 4 ends here -->
+        <div class="food__type">
+          <div class="food__image">
+            <img src="./AssetsFolder/delivery'.jpg" alt="dry fruits" />
+          </div>
+          <div class="food__content">
+            <div class="food__icon">
+              <i class="fa-solid fa-truck fa-2x"></i>
+            </div>
+            <h4>urgent delivery</h4>
+            <a href="#" class="btn btn-secondary">learn more</a>
+          </div>
+        </div>
+        <!-- food__item 5 ends here -->
+        <div class="food__type">
+          <div class="food__image">
+            <img src="./AssetsFolder/home dilivery.jpg" alt="dry fruits" />
+          </div>
+          <div class="food__content">
+            <div class="food__icon">
+              <i class="fa-solid fa-wifi fa-2x"></i>
+            </div>
+            <h4>Home delivery</h4>
+            <a href="#" class="btn btn-secondary">learn more</a>
+          </div>
+        </div>
+        <!-- food__item 6 ends here -->
+        <div class="food__type">
+          <div class="food__image">
+            <img src="./AssetsFolder/caring-staff.jpeg" alt="dry fruits" />
+          </div>
+          <div class="food__content">
+            <div class="food__icon">
+              <i class="fa-solid fa-hand-holding-hand fa-2x"></i>
+            </div>
+            <h4>caring staff</h4>
+            <a href="#" class="btn btn-secondary">learn more</a>
+          </div>
+        </div>
+        <!-- food__item 7 ends here -->
+        <div class="food__type">
+          <div class="food__image">
+            <img src="./AssetsFolder/environment.jpg" alt="dry fruits" />
+          </div>
+          <div class="food__content">
+            <div class="food__icon">
+              <i class="fa-solid fa-location-dot fa-2x"></i>
+            </div>
+            <h4>best evvironmnent</h4>
+            <a href="#" class="btn btn-secondary">learn more</a>
+          </div>
+        </div>
+        <!-- food__item 8 ends here -->
+        <div class="food__type">
+          <div class="food__image">
+            <img src="./AssetsFolder/cost effective.jpg" alt="dry fruits" />
+          </div>
+          <div class="food__content">
+            <div class="food__icon">
+              <i class="fa-solid fa-coins fa-2x"></i>
+            </div>
+            <h4>cost effective</h4>
+            <a href="#" class="btn btn-secondary">learn more</a>
+          </div>
+        </div>
+        <!-- food__item 9 ends here -->
+      </div>
+      <!-- * food__container ends here -->
+    </section>
+    <!-- ! @@@@@@@@@@@@@@@@@@@@@@@@@ food menu  @@@@@@@@@@@@@@@@@@@@ -->
+    <section class="menu" id="food-menu">
+      <h2 class="sectionHeading">explore our food menu</h2>
+      <div class="menu__container container">
+        <div class="menu__item">
+          <div class="menu__image">
+            <img
+              src="./AssetsFolder/food-menu1.jpg"
+              alt="mixture of vegitables"
+            />
+          </div>
+          <div class="menu__description">
+            <h4>food menu item 1</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, culpa?
+            </p>
+            <p class="item__price">price:$255</p>
+            <a href="#" class="btn btn-secondary">buy</a>
+          </div>
+        </div>
+        <!-- menu item ends here -->
+        <div class="menu__item">
+          <div class="menu__image">
+            <img
+              src="./AssetsFolder/food-menu2.jpg"
+              alt="mixture of vegitables"
+            />
+          </div>
+          <div class="menu__description">
+            <h4>food menu item 2</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, culpa?
+            </p>
+            <p class="item__price">price:$255</p>
+            <a href="#" class="btn btn-secondary">buy</a>
+          </div>
+        </div>
+        <!-- menu item ends here -->
+        <div class="menu__item">
+          <div class="menu__image">
+            <img
+              src="./AssetsFolder/food-menu3.jpg"
+              alt="mixture of vegitables"
+            />
+          </div>
+          <div class="menu__description">
+            <h4>food menu item 3</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, culpa?
+            </p>
+            <p class="item__price">price:$255</p>
+            <a href="#" class="btn btn-secondary">buy</a>
+          </div>
+        </div>
+        <!-- menu item ends here -->
+        <div class="menu__item">
+          <div class="menu__image">
+            <img
+              src="./AssetsFolder/food-menu4.jpg"
+              alt="mixture of vegitables"
+            />
+          </div>
+          <div class="menu__description">
+            <h4>food menu item 4</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, culpa?
+            </p>
+            <p class="item__price">price:$255</p>
+            <a href="#" class="btn btn-secondary">buy</a>
+          </div>
+        </div>
+        <!-- menu item ends here -->
+        <div class="menu__item">
+          <div class="menu__image">
+            <img
+              src="./AssetsFolder/food-menu5.jpg"
+              alt="mixture of vegitables"
+            />
+          </div>
+          <div class="menu__description">
+            <h4>food menu item 5</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, culpa?
+            </p>
+            <p class="item__price">price:$255</p>
+            <a href="#" class="btn btn-secondary">buy</a>
+          </div>
+        </div>
+        <!-- menu item ends here -->
+        <div class="menu__item">
+          <div class="menu__image">
+            <img
+              src="./AssetsFolder/food-menu6.jpg"
+              alt="mixture of vegitables"
+            />
+          </div>
+          <div class="menu__description">
+            <h4>food menu item 6</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, culpa?
+            </p>
+            <p class="item__price">price:$255</p>
+            <a href="#" class="btn btn-secondary">buy</a>
+          </div>
+        </div>
+        <!-- menu item ends here -->
+      </div>
+      <!-- * main container ends here -->
+    </section>
+    <!-- ! @@@@@@@@@@@@@@@@@@@@@@@@@ testimoniasl  @@@@@@@@@@@@@@@@@@@@ -->
+    <section class="swiper mySwiper" id="testimonials">
+      <h2 class="sectionHeading">what our customers says</h2>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="testimonial__info">
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
+              eum, delectus tempora asperiores quos blanditiis ex? Aliquid
+              dolore id eveniet! lorem justify
+            </p>
+          </div>
+          <div class="testimonial__image">
+            <img src="./AssetsFolder/shoaib.jpg" alt="" />
+          </div>
+          <p>muhammad shoaib</p>
+        </div>
+        <!-- testimonial item ends here -->
+        <div class="swiper-slide">
+          <div class="testimonial__info">
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
+              eum, delectus tempora asperiores quos blanditiis ex? Aliquid
+              dolore id eveniet! lorem justify
+            </p>
+          </div>
+          <div class="testimonial__image">
+            <img src="./AssetsFolder/st-blue.jpg" alt="" />
+          </div>
+          <p>tauseef aftab</p>
+        </div>
+        <!-- testimonial item ends here -->
+        <div class="swiper-slide">
+          <div class="testimonial__info">
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
+              eum, delectus tempora asperiores quos blanditiis ex? Aliquid
+              dolore id eveniet! lorem justify
+            </p>
+          </div>
+          <div class="testimonial__image">
+            <img src="./AssetsFolder/decdentpotrait.jpg" alt="" />
+          </div>
+          <p>soahil shaheen</p>
+        </div>
+        <!-- testimonial item ends here -->
+        <div class="swiper-slide">
+          <div class="testimonial__info">
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
+              eum, delectus tempora asperiores quos blanditiis ex? Aliquid
+              dolore id eveniet! lorem justify
+            </p>
+          </div>
+          <div class="testimonial__image">
+            <img src="./AssetsFolder/f-4.jpg" alt="" />
+          </div>
+          <p>Rubab sheikh</p>
+        </div>
+        <!-- testimonial item ends here -->
+        <div class="swiper-slide">
+          <div class="testimonial__info">
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
+              eum, delectus tempora asperiores quos blanditiis ex? Aliquid
+              dolore id eveniet! lorem justify
+            </p>
+          </div>
+          <div class="testimonial__image">
+            <img src="./AssetsFolder/f-1-a.jpg" alt="" />
+          </div>
+          <p>qura tul ain</p>
+        </div>
+        <!-- testimonial item ends here -->
+        <div class="swiper-slide">
+          <div class="testimonial__info">
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
+              eum, delectus tempora asperiores quos blanditiis ex? Aliquid
+              dolore id eveniet! lorem justify
+            </p>
+          </div>
+          <div class="testimonial__image">
+            <img src="./AssetsFolder/f-6-a.jpg" alt="" />
+          </div>
+          <p>bareera waheed</p>
+        </div>
+        <!-- testimonial item ends here -->
+      </div>
+      <!-- * swipper wrapper -->
+      <div class="swiper-pagination"></div>
+    </section>
+    <!-- ! @@@@@@@@@@@@@@@@@@@@@@@@@ contact  @@@@@@@@@@@@@@@@@@@@ -->
+
+    <section class="contact" id="contact">
+      <div class="contact__container container">
+        <div class="contact__left">
+          <h3>contact us</h3>
+          <div class="contactLeft__image">
+            <img
+              src="./AssetsFolder/building-image.jpg"
+              alt="resturant kitchen"
+            />
+          </div>
+          <!-- contact__left image ends here -->
+          <div class="contactLeft__links">
+            <div class="cotact__link">
+              <div class="contactLink__icon">
+                <i class="fa-solid fa-mobile-screen fa-2x"></i>
+              </div>
+              <p>+92321-1554987</p>
+              <h4>Phone</h4>
+            </div>
+            <div class="cotact__link">
+              <div class="contactLink__icon">
+                <i class="fa-solid fa-location-dot fa-2x"></i>
+              </div>
+              <p>RQR,MT Bahwalpur</p>
+              <h4>Address</h4>
+            </div>
+            <div class="cotact__link">
+              <div class="contactLink__icon">
+                <i class="fa-solid fa-globe fa-2x"></i>
+              </div>
+              <p>website.com</p>
+              <h4>website</h4>
+            </div>
+            <div class="cotact__link">
+              <div class="contactLink__icon">
+                <i class="fa-solid fa-envelope fa-2x"></i>
+              </div>
+              <p>SS@gmail.com</p>
+              <h4>Email</h4>
+            </div>
+          </div>
+          <!-- contact__left links ends here -->
+        </div>
+        <!-- * contact__left ends here -->
+        <div class="contact__right">
+          <h3>order food</h3>
+          <form>
+            <div class="form__group">
+              <input
+                type="text"
+                name="First Name"
+                id="f-name"
+                placeholder="First Name"
+                required
+              />
+
+              <input
+                type="text"
+                name="Last Name"
+                id="l-name"
+                placeholder="Last Name"
+                required
+              />
+            </div>
+            <!-- form group 1 ends here -->
+            <div class="form__group">
+              <input
+                type="text"
+                name="Phone Number"
+                id="phone"
+                placeholder="Phone Number"
+                required
+              />
+
+              <input
+                type="text"
+                name="Address"
+                id="address"
+                placeholder="Address"
+                required
+              />
+            </div>
+            <!-- form group 2 ends here -->
+            <div class="form__group">
+              <input
+                type="text"
+                name="E-mail"
+                id="email"
+                placeholder="E-mail"
+                required
+              />
+            </div>
+            <!-- form group 3 ends here -->
+            <div class="form__group">
+              <select name="food" id="department" required>
+                <option value="food One">Food One</option>
+                <option value="food Two">Food Two</option>
+                <option value="food Three">Food Three</option>
+                <option value="food Four">Food Four</option>
+                <option value="food Five">Food Five</option>
+              </select>
+            </div>
+            <!-- form group 4 ends here -->
+            <div class="form__group">
+              <select name="quantity" id="doctor" required>
+                <option value="1">1</option>
+                <option value="2 ">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+            <!-- form group 5 ends here -->
+            <div class="form__group">
+              <textarea
+                name="User Message"
+                rows="6"
+                id="Request"
+                placeholder="Additional Message"
+              ></textarea>
+            </div>
+            <!-- form group 6 ends here -->
+            <a href="#" class="btn btn-secondary">submit</a>
+          </form>
+        </div>
+        <!-- contact right ends here -->
+      </div>
+      <!-- contact__container ends here -->
+    </section>
+    <!-- ! @@@@@@@@@@@@@@@@@@@@@@@@@ footer  @@@@@@@@@@@@@@@@@@@@ -->
+    <!-- ! Footer section starts here -->
+    <footer class="footer">
+      <div class="container footer__container">
+        <article class="footer__item footer__1">
+          <a href="./index.html">
+            <h3>FRestaurant.</h3>
+          </a>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. A debitis
+            commodi repudiandae. Fuga eligendi,autem.
+          </p>
+          <div>
+            <li>
+              <a href="#"><i class="fa-solid fa-phone"></i></a>
+            </li>
+            <p>msohailshaheen5@gmail.com</p>
+          </div>
+          <div>
+            <li>
+              <a href="#"><i class="fa-regular fa-envelope"></i></a>
+            </li>
+            <p>+92321-1554987</p>
+          </div>
+        </article>
+        <!-- footer item ends here -->
+
+        <article class="footer__item footer__2">
+          <h3>primacy</h3>
+          <ul class="prvivay">
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">refund policy</a></li>
+            <li><a href="#">Complain Policy</a></li>
+            <li><a href="#">exchange policy</a></li>
+            <li><a href="#">Purchasing Policy</a></li>
+          </ul>
+        </article>
+        <!-- footer item ends here -->
+        <article class="footer__item footer__3">
+          <h3>permalinks</h3>
+          <ul class="permalinks">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About us</a></li>
+            <li><a href="./courses.html">Our Services</a></li>
+            <li><a href="./contact.html">Explore Food Menu</a></li>
+            <li>
+              <a href="./contact.html" class="btn btn-footer">Order Food</a>
+            </li>
+          </ul>
+        </article>
+        <!-- footer item ends here -->
+        <article class="footer__item footer__4">
+          <h3>contact us</h3>
+          <p>Book For Event</p>
+          <p>Check Discounts</p>
+          <div class="contact__links">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook-f modi"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+          </div>
+        </article>
+        <!-- footer item ends here -->
+      </div>
+      <!-- main container ends here -->
+      <div class="footer__bottom">
+        <small>Copyright &copy; Food restaurant All Rights Reserved</small>
+      </div>
+    </footer>
+    <!-- ! @@@@@@@@@@@@@@@@@@@@@@@@@ java script  @@@@@@@@@@@@@@@@@@@@ -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
